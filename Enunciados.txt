@@ -1,0 +1,14 @@
+Proyecto 2: Katas JavaScript
+Este segundo proyecto consiste en completar, validar y entregar todos los ejercicios de JavaScript de los siguientes bloques:
+
+Ejercicios básicos y avanzados de JavaScript
+Ejercicios DOM
+Ejercicios ES6+ y asincronía
+El resto de contenido como los retos, ejemplos y prácticas guiadas no son entregables.
+
+Una vez terminado tendréis que enviar el proyecto a antonio.rosales@thepower.education con el asunto Proyecto 2: Katas JavaScript - Vuestro nombre y en el cuerpo del correo el link de un repositorio de GitHub.
+Se pueden organizar los bloques de ejercicios por carpetas y, en el caso de tener carpetas adicionales como en los ejercicios de DOM (con html y js) ordenarlo de la manera más entendible posible.
+
+No se aceptarán ficheros sueltos adjuntos en el correo electrónico ni similares, solamente un link de GitHub. Importante: este proyecto, al igual que el resto, tiene que tener su propio repositorio. Cada proyecto debe tener su repositorio individual, en este caso, un repositorio con dos ficheros (html y css).
+
+El repositorio debe de estar en público.
