@@ -31,10 +31,14 @@ const movies = [
   },
 ];
 
-const categorias = [];
+const arrayCategorias = [];
 
-for (let i = 0; i < movies.length; i++) {
-    if (movies[i].categories ==! categorias){
-        categorias.push(movies[i].categories)
+for (const movie of movies) {
+  for (const categoria of movie.categories) {
+    if (!arrayCategorias.includes(categoria)) {
+      arrayCategorias.push(categoria);
     }
   }
+}
+
+console.log(arrayCategorias);
