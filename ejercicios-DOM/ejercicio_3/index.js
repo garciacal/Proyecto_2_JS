@@ -1,5 +1,15 @@
-// 1.1 Basandote en el array siguiente, crea una lista ul > li dinámicamente en el html que imprima cada uno de los paises. const countries = ['Japón', 'Nicaragua', 'Suiza', 'Australia', 'Venezuela'];
+// 1.1 Basandote en el array siguiente, crea una lista ul > li dinámicamente en el html que imprima cada uno de los paises. 
 
+const countries = ['Japón', 'Nicaragua', 'Suiza', 'Australia', 'Venezuela'];
+const ul = document.createElement("ul");
+
+for (let i = 0; i < countries.length; i++) {
+  const li = document.createElement("li");
+  li.textContent = countries[i];
+  ul.appendChild(li);
+}
+
+document.body.appendChild(ul);
 // 1.2 Elimina el elemento que tenga la clase .fn-remove-me.
 
 // 1.3 Utiliza el array para crear dinamicamente una lista ul > li de elementos en el div de html con el atributo data-function="printHere". const cars = ['Mazda 6', 'Ford fiesta', 'Audi A4', 'Toyota corola'];
